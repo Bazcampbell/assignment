@@ -1,0 +1,7 @@
+# Read me
+
+The provided code attempts to simulate ants and butterflies moving through a simple ecosystem. The mapping of this ecosytem is handled by the matplotlib python package and takes in a map as a CSV file in which different integers correspond to different terrain types. For example, an 8 is the air and a 0 is an ant tunnel. This terrain map is coloured as per the integer value of the terrain type.
+
+My added code functionality handles the simulated movement of the different animals. Given certain rules for the movement of ants and butterflies through a defined neighbourhood such as the Moore and Von Neuman neighbourhoods, I was able to code the simulator in such a way so that the animals can only move under the rules of their defined neighbourhood. Furthermore, the code also checks for terrain types which would permit or deny the movement for said animal. Butterflies can only move through air within the terrain and ants can only move through tunnels in the terrain.
+
+The added and modified code segments have # comments within the python files to further explain the functionality of the specific code segment. Attached to the submission are photos of the plotted simulation after 100, 1,000 and 10,000 runs of the simulation, in which each animal can choose a random move as per their defined moves in 1 run. This helps to simulate the ecosystem of ants and butterflies after they make n amount of decisions, in which each decision results in a move defined by their neighbourhood and terrain boundaries.
